@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>GuGu1</title>
+<title>GuGu2</title>
 <style>
 table, tr, td {
    
@@ -16,12 +16,12 @@ table, tr, td {
 </head>
 <body>
 <table>
-<% for (int i=1; i <= 9; ++i) { 
-     out.println("  <tr>");
-     for (int j=2; j <= 9; ++j) {
-         out.println("    <td>" + j + "X" + i + "=" + (j * i) + "</td>");
+<% for (int i=2; i <= 9; ++i) { 
+     out.println("  <td>");
+     for (int j=1; j <= 9; ++j) {
+         out.println( + i + "X" + j + "=" + (j * i) + "</br>");
      }
-     out.println("  </tr>");
+     out.println("  </td>");
    }
 %>
 </table>
