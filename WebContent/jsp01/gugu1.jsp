@@ -7,7 +7,7 @@
 <title>GuGu1</title>
 <style>
 table, tr, td {
-   
+    
   border: 1px solid black;
   border-collapse: collapse;
   padding: 5px;
