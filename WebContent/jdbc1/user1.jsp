@@ -51,5 +51,6 @@ User user = UserDAO3.findById(id);
 </table>
 
 </div>
+<a href="javascript:window.history.back()" class="btn btn-info">돌아가기</a>
 </body>
 </html>
