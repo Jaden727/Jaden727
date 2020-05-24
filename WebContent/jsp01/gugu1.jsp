@@ -19,7 +19,7 @@ table, tr, td {
 <% for (int i=1; i <= 9; ++i) { 
      out.println("  <tr>");
      for (int j=2; j <= 9; ++j) {
-         out.println("    <td>" + j + "X" + i + "=" + (j * i) + "</td>");
+         out.println("    <td>" + j + "&nbsp; X &nbsp;" + i + "=" + (j * i) + "</td>");
      }
      out.println("  </tr>");
    }

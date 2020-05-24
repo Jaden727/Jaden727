@@ -35,6 +35,6 @@ table, tr, td {
      out.println("  </td>");
    }
 %>
-</table>
+
 </body>
 </html>

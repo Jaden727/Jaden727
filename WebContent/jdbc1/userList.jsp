@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page import="java.util.List, lecture1.jdbc1.*" %>
 <% 
-List<User> list = UserDAO.findAll();
+List<User> list = UserDAO2.findAll();
 %>
 <!DOCTYPE html>
 <html>
